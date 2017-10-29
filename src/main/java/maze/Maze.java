@@ -23,7 +23,6 @@ public class Maze {
         // List の実装を ArrayList に変更する
         this.mazeObjs = mazeObjs.stream()
                 .map(ArrayList::new)
-                // .map(e -> new ArrayList<>(e))
                 .collect(Collectors.toList());
     }
 
